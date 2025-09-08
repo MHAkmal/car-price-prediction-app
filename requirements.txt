@@ -1,0 +1,8 @@
+streamlit
+polars
+joblib
+streamlit-option-menu
+scikit-learn
+marimo
+seaborn
+matplotlib
