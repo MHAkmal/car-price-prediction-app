@@ -452,9 +452,6 @@ def _(mo):
 def _(fitted_pipeline):
     import joblib
 
-    # Assuming 'fitted_model' is the variable holding your trained pipeline
-    # fitted_model, mse, r2 = create_and_evaluate_regression_model_pl(df_cleaned)
-
     joblib.dump(fitted_pipeline, './car-price-prediction/car_price_prediction_model.pkl')
     print("Model saved successfully!")
     return
@@ -462,3 +459,4 @@ def _(fitted_pipeline):
 
 if __name__ == "__main__":
     app.run()
+
